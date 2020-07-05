@@ -29,3 +29,5 @@ if answer3 = 4:
         score += 1
 else:
     print("wrong! good try!")
+print ("Your score is ",score)
+print ("This is the end for now! Your score was ",score1,"! I update this a few times too! so don't worry!")
