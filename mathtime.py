@@ -1,13 +1,16 @@
 print("hello!")
 print("lets do math!")
-score = 20
+score = 0
+streak = 0
 answer1 = input("What is 1 + 1?")
 
 if answer1 == "2":
     print("Correct!")
     score = score+1
+    streak += 1
 else:
     print("Incorrect!")
+    streak = 0
 print("Your score is", answer1)
 #start level 2
 print("To level 2!")
@@ -15,8 +18,10 @@ answer2 = input("what is 7 plus 2?")
 if answer2 == "9":
     print("correct!")
     score += 1
+    streak += 1
 else:
     print("Incorrect!")
+    streak = 0
 
 print("its getting harder!")
 if answer2 == "9" and answer1 == "2":
@@ -24,6 +29,7 @@ if answer2 == "9" and answer1 == "2":
 
 answer3 = input("What is 10 - 6?")
 if answer3 == "4":
+    streak += 1
     if answer2 == "9" and answer1 == "2":
         print("yay! you got all three questions correct. You have acheived a streak of 3. Keep on going for more prizes! :)")
         score += 2
@@ -33,4 +39,9 @@ if answer3 == "4":
 else:
     print("wrong! good try!")
 print("Your score is ", score)
+answer4 = input("What is 20 - 18?")
+if answer4 == 2:
+    print("Correct!")
+    streak += 1
+    score += 1
 print("This is the end for now! Your score was " ,score, "! I update this a few times too! so don't worry!")
