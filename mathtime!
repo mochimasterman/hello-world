@@ -13,3 +13,6 @@ print("To level 2!")
 answer2 = input("what is 7 plus 2?")
 if answer2 = 9:
     print ("correct!")
+    score += 1
+else:
+    print ("Incorrect!")
