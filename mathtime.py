@@ -21,7 +21,7 @@ if answer2 == 9 and answer1 == 2:
     print("If you get this question correct you will get double points!")
 answer3 = input("What is 10 - 6?")
 if answer3 == 4:
-    if answer2 = 9 and answer1 = 2:
+    if answer2 == 9 and answer1 == 2:
         print("yay! you got all three questions correct. You have acheived a streak of 3. Keep on going for more prizes! :)")
         score += 2
     else:
