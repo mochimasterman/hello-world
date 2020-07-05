@@ -40,8 +40,11 @@ else:
     print("wrong! good try!")
 print("Your score is ", score)
 answer4 = input("What is 20 - 18?")
-if answer4 == 2:
+if answer4 == "2":
     print("Correct!")
     streak += 1
     score += 1
+else:
+    print("Incorrect")
+    streak = 0
 print("This is the end for now! Your score was " ,score, "! I update this a few times too! so don't worry!")
