@@ -1,6 +1,6 @@
 print("hello!")
 print("lets do math!")
-score = 0
+score = 20
 answer1 = input("What is 1 + 1?")
 
 if answer1 == "2":
